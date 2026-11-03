@@ -5,13 +5,13 @@ const Counter = () => {
 
   useEffect(() => {
     // console.log("I am mounting phase");
-    
+
     // return () => console.log("i am unmounting phase");
 
-    if(count==0) return
+    if (count == 0) return;
     console.log("mounting phase");
   }, [count]);
-   console.log("maaz");
+  console.log("maaz");
   return (
     <div>
       <h2>Counter Component</h2>
