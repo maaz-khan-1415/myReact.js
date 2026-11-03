@@ -1,0 +1,42 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  min-height: 100vh;
+}
+/* .container{
+  margin: auto;
+  width: 100%;
+  max-width: 1200px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  
+} */
+
+
+
+.container,
+.skeleton_container{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  min-height: 100vh;
+  padding: 100px 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 100px;
+}
+
+.skeleton_card{
+    width: 300px;
+    height:350px;
+    border-radius: 25px;
+   background-color: rgb(232, 230, 230);
+}
+
